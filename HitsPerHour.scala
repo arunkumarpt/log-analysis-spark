@@ -29,7 +29,7 @@ object HitsPerHour {
 
 
 
-    // Any IPAddress that has accessed the server more than 10 times.
+
     val ipAddresses = accessLogs
       .map(log => (log.dateTime.substring(12,14), 1))
       .reduceByKey(_ + _)
