@@ -22,9 +22,7 @@ com.cloudwick.spark.loganalysis
 
 ```
 | Class        | Description        
-| ------------- |:-------------:| 
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
+| ------------- |:-------------| 
 | HitsPerHour | The HitsPerHour finds the hits happend in a hourly basis     | 
 | HitsPerUrl | The HitsPerUrl gives the number of hits per URL     | 
 | LogSizeAggregator  | The LogSizeAggregator takes in an apache access log file and computes min, max and avg of content size of the log.    | 
